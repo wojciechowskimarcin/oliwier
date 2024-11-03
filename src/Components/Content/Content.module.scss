@@ -1,0 +1,22 @@
+@import "src/style/index.module.scss";
+
+.mainBlock{
+  width:100%;
+  min-height: 70vh;
+  font-family: "GowunDodum";
+  //background-color: aliceblue;
+}
+.header1{
+  font-size: 3em;
+}
+
+@media (max-width: 1024px){
+  .mainBlock {
+    //background-color: bisque;
+  }
+}
+@media (min-width: 1024px){
+  .mainBlock {
+    //background-color: aquamarine;
+  }
+}

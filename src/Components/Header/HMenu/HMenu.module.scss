@@ -1,0 +1,21 @@
+@media (max-width: 1024px){
+  .mobileView{
+    display: block;
+  }
+}
+@media (min-width: 1025px){
+  .mobileView{
+    display: none;
+  }
+}
+
+.hamburger{
+  width: 40px;
+  height: auto;
+  float:right;
+  margin: 1em 4em;
+}
+
+.hamburger:hover{
+  cursor: pointer;
+}

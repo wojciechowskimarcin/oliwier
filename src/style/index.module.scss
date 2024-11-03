@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "GowunDodum";
+  src: url("../assets/fonts/GowunDodum-Regular.ttf");
+}
+
+$green-color: #2c3e50;
+$borderRadius: 10px;
+$footerColor : rgba(80,80,80,1);
+
+
+@mixin boxShadow {
+  -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  border-radius: $borderRadius;
+}
+
+@mixin d-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin d-flex-column(){
+  @include d-flex();
+  flex-direction: column;
+}
+
+@mixin d-flex-row(){
+  @include d-flex();
+  flex-direction: row ;
+}
+
