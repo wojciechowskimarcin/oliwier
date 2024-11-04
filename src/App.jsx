@@ -1,7 +1,7 @@
-import s from "./style/index.module.scss"
 import Header from "./Components/Header/Header.jsx";
 import Content from "./Components/Content/Content.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
+import PriceSection from "./Components/Content/PriceSection/PriceSection.jsx";
 function App(){
 
 
@@ -10,6 +10,7 @@ function App(){
         <>
         <Header />
         <Content />
+            <PriceSection />
         <Footer />
         </>
             )

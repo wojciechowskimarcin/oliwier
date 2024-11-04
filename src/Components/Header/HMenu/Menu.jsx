@@ -1,4 +1,3 @@
-import React from 'react';
 import s from "./Menu.module.scss";
 
 const Menu = () => {

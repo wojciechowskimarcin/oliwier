@@ -1,6 +1,10 @@
 @font-face {
   font-family: "GowunDodum";
-  src: url("../assets/fonts/GowunDodum-Regular.ttf");
+  src: url("../fonts/GowunDodum-Regular.ttf");
+}
+
+* {
+  font-family: "GowunDodum", serif;
 }
 
 $green-color: #2c3e50;
@@ -9,9 +13,9 @@ $footerColor : rgba(80,80,80,1);
 
 
 @mixin boxShadow {
-  -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
-  -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
-  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  -webkit-box-shadow: 8px 8px 24px 0 rgba(66, 68, 90, 1);
+  -moz-box-shadow: 8px 8px 24px 0 rgba(66, 68, 90, 1);
+  box-shadow: 8px 8px 24px 0 rgba(66, 68, 90, 1);
   border-radius: $borderRadius;
 }
 

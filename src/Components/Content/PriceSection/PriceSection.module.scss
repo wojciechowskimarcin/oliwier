@@ -1,0 +1,49 @@
+.priceMainBlock{
+  width: 100%;
+  & h1{
+    text-align: center;
+  }
+}
+.priceSectionBlock {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-row: auto auto;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+
+.cryptoBlock{
+  width:200px;
+  height:auto;
+  border: 1px solid rgb(100,100,100);
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: inherit;
+
+  & p{
+    font-size: 1.2em;
+    color: blueviolet;
+    text-shadow: 2px 2px 5px mediumvioletred;
+    text-align: center;
+  }
+}
+
+.cryptoImg{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: block;
+  background-image: url("../../../assets/img/crypto.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}

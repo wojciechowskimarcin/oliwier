@@ -2,9 +2,22 @@
 
 .mainBlock{
   width:100%;
-  min-height: 70vh;
-  font-family: "GowunDodum";
-  //background-color: aliceblue;
+  padding:20px;
+  box-sizing: border-box;
+
+  font-family: "GowunDodum", serif;
+  background-image: url("../../assets/img/mainImages.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  min-height: 50vh;
+  & h1{
+    margin:0;
+  }
+  & p{
+    font-size: 1.3em;
+    width:70%;
+  }
 }
 .header1{
   font-size: 3em;
